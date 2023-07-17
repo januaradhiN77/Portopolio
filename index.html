@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J Adhi Nugroho Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/portopolio_icon.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <main>
+
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.jpg" alt="Richard hanrick" width="40">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Januar Adhi Nugroho</h1>
+
+          <p class="title">FrontEnd Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">adhinugroho623@gmail.com</a>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sumpiuh, Banyumas, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+                
+          <li class="social-item">
+            <a href="https://instagram.com/januaradhin?igshid=NGExMmI2YTkyZg==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://twitter.com/JanuarAdhiN?t=giVIFZsZqj9qVSVSEEo8VQ&s=09" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+          <li class="social-item">
+            <a href="https://www.tiktok.com/@januaradhin?_t=8e4Bd8xv1Jy&_r=1" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Journey</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+              Halo! perkenalan nama saya Januar Adhi N, saya adalah Pelajar dari SMK Ma'arif NU 1 Sumpiuh, Jurusan Teknik Informatika.
+          </p>
+
+          <p>
+            Saya juga admin dari salah satu Fanbase Member JKT48 sebagai Pembuat Website / Web Developer.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skill Saya</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">FrontEnd Developer</h4>
+
+                <p class="service-item-text">
+                  Saya berperan menjadi FrontEnd Developer untuk Website Resmi FanBase Member JKT48.
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Komentar</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Belum Ada Komentar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tidak ada data
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Belum Ada Komentar</h4>
+
+              <time datetime="2021-06-14">Error</time>
+
+              <div data-modal-text>
+                <p>
+                  Tidak ada data
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="journey" data-page="journey">
+
+        <header>
+          <h2 class="h2 article-title">Journey</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Pendidikan</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SD Negeri Taman Cibodas (Tangerang)</h4>
+
+              <span>2014 — 2020</span>
+
+              <p class="timeline-text">
+                Saya menjadi murid di SDN Taman Cibodas (Tangerang) sejak 2014 dan lulus di tahun 2020.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMPN 2 Sumpiuh (Banyumas)</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Saya menjadi murid di SMPN 2 Sumpiuh sejak 2020 dan lulus tahun 2023.
+              </p>
+
+            </li>
+            
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMK Ma'arif NU 1 Sumpiuh (Banyumas)</h4>
+
+              <span>2023 — Gatau Sampe Kapan</span>
+
+              <p class="timeline-text">
+                Saya sekarang menjadi murid di SMK Ma'arif NU 1 Sumpiuh.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Pengalaman</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Admin Website Fanbase</h4>
+
+              <span>2023 — Sekarang</span>
+
+              <p class="timeline-text">
+                Saya Masih menjadi Admin Website di salah satu Fanbase Resmi Member JKT48.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skill Pemograman</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>New Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Last Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>FanBase Project</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>New Project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Last Project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>FanBase Project</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ellatheria Official Website</h3>
+
+                <p class="project-category">Sedang Dalam Pembuatan</p>
+                    <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Juni 17, 2023</time>
+                  </div>
+
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+
+            <li class="blog-post-item">
+              <a href="https://instagram.com/smkmaarifsumpiuh?igshid=MzRlODBiNWFlZA==">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mpls_profilepicture.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Profile Picture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Juli 17, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Twibon MPLS</h3>
+
+                  <p class="blog-text">
+                    Gaada Muka soalnya Public🏃
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/project1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Project Website</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Juli 17, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Project Website FanBase Resmi JKT48</h3>
+
+                  <p class="blog-text">
+                    Project Project an🤒
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact Us</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106415.40709910434!2d109.29523849522356!3d-7.6090822466811305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65466a3f9bce9f%3A0x7dbcbc36ae1ad20!2sSoempioeh%2C%20Semampir%2C%20Kuntili%2C%20Kec.%20Sumpiuh%2C%20Kabupaten%20Banyumas%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1689601311873!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title"></h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nama" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Pesan Kamu" required data-form-input></textarea>
+
+            <button class="form-btn" type="sumbit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Kirim</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
