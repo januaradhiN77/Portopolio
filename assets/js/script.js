@@ -23,9 +23,9 @@ const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
 
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
+const dataWaktu = document.querySelector("[data-waktu]");
+const dataNama = document.querySelector("[data-nama]");
+const dataText = document.querySelector("[render-komentar-text]");
 
 
 const testimonialsModalFunc = function () {
@@ -37,8 +37,10 @@ const testimonialsModalFunc = function () {
 for (let i = 0; i < testimonialsItem.length; i++) {
 
   testimonialsItem[i].addEventListener("click", function () {
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    
+
+    dataWaktu.innerHTML = this.querySelector("[data-waktu-render]").innerHTML;
+    dataNama.innerHTML = this.querySelector("[data-nama-render]").innerHTML;
+    dataText.innerHTML = this.querySelector("[data-komentar-text]").innerHTML;
 
     testimonialsModalFunc();
 
